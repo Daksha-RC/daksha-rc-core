@@ -53,7 +53,7 @@ test-log = "0.2.17"
 testcontainers = { version = "0.23.3" }
 testcontainers-modules = { version = "0.11.6", features = ["postgres"] }
 thiserror = "2.0.12"
-tokio = { version = "1.44.2", features = ["macros", "rt-multi-thread", "time"] }
+tokio = { version = "1.45.0", features = ["macros", "rt-multi-thread", "time"] }
 tokio-postgres = "0.7.13"
 tokio-stream = "0.1.17"
 toml = "0.8.22"
