@@ -37,7 +37,7 @@ POST {{host}}/api/v1/schema/create_def
 Content-Type: application/json
 
 {
-  "title": "test_title_3",
+  "title": "test_title_5",
   "type": "object",
   "properties": {
     "example": {
@@ -66,7 +66,7 @@ POST {{host}}/api/v1/schema/validate_def
 Content-Type: application/json
 
 {
-  "id": "4b736e56-8c99-c1c0-bd55-16175ec63f76"
+  "id": "082b5314-5120-c0d2-4e16-abed1f9a0504"
 }
 
 
@@ -84,7 +84,7 @@ POST {{host}}/api/v1/schema/activate_def
 Content-Type: application/json
 
 {
-  "id": "4b736e56-8c99-c1c0-bd55-16175ec63f76 "
+  "id": "082b5314-5120-c0d2-4e16-abed1f9a0504"
 }
 
 
@@ -194,7 +194,7 @@ Content-Type: application/json
 GET {{host}}/api/v1/schema?record_status=Active
 
 ### Get Definitions by titles
-GET {{host}}/api/v1/schema?TITLE=Student
+GET {{host}}/api/v1/schema?TITLE=Student1
 
 
 ### Test POST request Should fail
