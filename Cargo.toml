@@ -64,7 +64,7 @@ tokio-postgres = "0.7.13"
 tokio-stream = "0.1.17"
 toml = "0.8.23"
 unicode-normalization = "0.1.24"
-utoipa = { version = "5.3.1", features = ["chrono", "uuid", "actix_extras"] }
+utoipa = { version = "5.4.0", features = ["chrono", "uuid", "actix_extras"] }
 utoipa-rapidoc = { version = "6.0.0", features = ["actix-web"] }
 utoipa-redoc = { version = "6.0.0", features = ["actix-web"] }
 utoipa-scalar = { version = "0.3.0", features = ["actix-web"] }
