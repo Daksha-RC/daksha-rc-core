@@ -140,7 +140,7 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
 
       - name: Cache cargo-make binary
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         id: cache-cargo-make
         with:
           path: ~/.cargo/bin/cargo-make
@@ -171,7 +171,7 @@ jobs:
           echo "✅ cargo-make verified for ${{ runner.arch }}"
 
       - name: Cache Rust dependencies
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             ~/.cargo/registry/index/
