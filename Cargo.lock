@@ -1217,9 +1217,9 @@ dependencies = [
 
 [[package]]
 name = "disintegrate"
-version = "2.0.0"
+version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "475572ba726b227c344d5cd1116725d46b3863b19a31a9373f88685dfd7bc4cb"
+checksum = "c67399a384198e08673b36039a4f81fe15575d9e5719771a351240eee3b841c6"
 dependencies = [
  "async-stream",
  "async-trait",
@@ -1237,9 +1237,9 @@ dependencies = [
 
 [[package]]
 name = "disintegrate-macros"
-version = "2.0.0"
+version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c038bc8764e4a97e3e1365fb3fad26cca4ca37c0713e23b9db8089c6418fd3b5"
+checksum = "d71b034e3598662042bd89304bcbd223ce5c766b77aad69b3aebd895f8303d86"
 dependencies = [
  "heck",
  "proc-macro2",
@@ -1272,9 +1272,9 @@ dependencies = [
 
 [[package]]
 name = "disintegrate-serde"
-version = "2.0.0"
+version = "2.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0fbda936eba91af2e03b4908d3d3409d533bd4165024d8897f8fef6ebe0a8132"
+checksum = "3195c65ea1a5d10708e2e480e68d574efb0dc1426f060e22254368744456890d"
 dependencies = [
  "serde",
  "serde_json",
