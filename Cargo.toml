@@ -29,7 +29,7 @@ blake3 = "1.8.2"
 cached = { version = "0.55.1", features = ["default","async", "proc_macro","ahash"] }
 chrono = { version = "0.4.41", features = ["serde"] }
 config = "0.15.12"
-ctor = "0.4.2"
+ctor = "0.4.3"
 derive_more = { version = "2.0.1", features = ["full"] }
 disintegrate = { version = "2.1.0", features = ["macros", "serde-json"] }
 disintegrate-postgres = { version = "2.1.0", features = ["listener"] }
